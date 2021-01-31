@@ -331,6 +331,12 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!65 &1472417799 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 3505718007289932967, guid: 09f04fedae346ab4eb70ab55c729dce1,
+    type: 3}
+  m_PrefabInstance: {fileID: 3505718008509164079}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2027161227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3505718007289932964, guid: 09f04fedae346ab4eb70ab55c729dce1,
@@ -399,6 +405,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3505718007289932969, guid: 09f04fedae346ab4eb70ab55c729dce1,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1472417799}
     - target: {fileID: 3505718007289932970, guid: 09f04fedae346ab4eb70ab55c729dce1,
         type: 3}
       propertyPath: m_Name
@@ -555,7 +566,7 @@ PrefabInstance:
     - target: {fileID: 6789327798248275642, guid: e329579db8a68434cbd8c03a9e6ef7b9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.01101125
+      value: 0.011011248
       objectReference: {fileID: 0}
     - target: {fileID: 6789327798248275642, guid: e329579db8a68434cbd8c03a9e6ef7b9,
         type: 3}
@@ -565,7 +576,7 @@ PrefabInstance:
     - target: {fileID: 6789327798248275642, guid: e329579db8a68434cbd8c03a9e6ef7b9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.001801348
+      value: 0.0018013475
       objectReference: {fileID: 0}
     - target: {fileID: 6789327798880541974, guid: e329579db8a68434cbd8c03a9e6ef7b9,
         type: 3}
